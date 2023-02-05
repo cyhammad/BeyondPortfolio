@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center">
-        <div className="max-w-7xl w-full">
+        <div className="w-full h-screen">
           <Header />
           <Banner />
         </div>

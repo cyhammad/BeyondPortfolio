@@ -10,9 +10,9 @@ import TouchSvg from "./svgs/TouchSvg";
 
 const Banner = () => {
   return (
-    <div className="relative flex flex-col xl:flex-row justify-center xl:justify-start xl:items-center px-5 md:px-11 xl:px-[42px] h-full  max-w-7xl w-full">
-      <div className="flex flex-col font-macklindisplay xl:mt-16">
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[6rem] xl:text-[7rem] leading-10 xl:leading-[108px]">
+    <div className="relative flex flex-col xl:flex-row justify-center xl:justify-start xl:items-center px-5 md:px-11 xl:px-[42px] w-full">
+      <div className="flex flex-col font-macklindisplay">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[6rem] xl:text-[7rem] leading-10 xl:leading-[108px] mt-20">
           Designing future
           <br />
           with beyond
