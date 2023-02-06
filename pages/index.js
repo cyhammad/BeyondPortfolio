@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import FixedRightBar from "@/components/FixedRightBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,17 @@ export default function Home() {
         <div className="w-full h-screen">
           <Header />
           <Banner />
+          <FixedRightBar />
+          <div className="px-[3vw] grid grid-cols-2 my-[18vh]">
+            <p className="text-[1.5vw] font-gthaptik mt-[2vh]">
+              We are equal parts digital agency and venture firm.
+            </p>
+            <div className="text-[3vw] font-macklindisplay">
+              We elevate game-changing brands for growth by translating their
+              future potential into a <span className="italic underline text-[#454544]">strategic brand narrative</span> and authentic
+              digital presence.
+            </div>
+          </div>
         </div>
       </div>
     </>
