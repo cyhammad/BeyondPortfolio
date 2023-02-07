@@ -24,7 +24,7 @@ export default function Home() {
           <Header />
           <Banner />
           <FixedRightBar />
-          <div className="px-[3vw] grid grid-cols-2 my-[18vh]">
+          <div className="pl-[10.5vw] pr-[5vw] grid grid-cols-2 my-[18vh]">
             <p className="text-[1.5vw] font-gthaptik mt-[2vh]">
               We are equal parts digital agency and venture firm.
             </p>
@@ -37,11 +37,14 @@ export default function Home() {
               and authentic digital presence.
             </div>
           </div>
-          <div className="flex flex-row-reverse bg-[url('/bannerimg2.png')] bg-cover bg-no-repeat bg-center h-full mx-[3vw] mb-[18vh]">
-            <p className="text-white mr-[5vw] my-[3vw] font-syncopate text-[2vw]">
-              Beyond
-            </p>
-          </div>
+          <video
+            src="//videos.ctfassets.net/u275ja1nivmq/572Hkt6dx6qhfCBNGiEka0/13c89665b962c6273549872b53019b2a/YML_Showreel2021_WebsiteLoop_12sec_R01.03__1_.mp4#t=0.1"
+            playsInline={true}
+            loop={true}
+            autoPlay={true}
+            muted={true}
+            className="px-[10.5vw]"
+          ></video>
           <div className="grid grid-cols-5 text-[3.5vw] leading-[4vw] mx-[3vw] pb-[8vw]">
             <p className="font-macklindisplay col-span-3">
               We guide game-changing tech & <br /> web3 brands,{" "}

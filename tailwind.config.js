@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         syncopate: ["Syncopate"],
+        barlowcondensed: ["Barlow Condensed"],
         macklindisplay: ["MacklinDisplay"],
         gthaptik: ["GTHaptik"],
       },

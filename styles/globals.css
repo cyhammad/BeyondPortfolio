@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 @font-face {
     font-family: "MacklinDisplay";
@@ -16,7 +17,7 @@
 
 @layer utilities {
     .scrollbar::-webkit-scrollbar {
-        width: 8px;
+        width: 5px;
         height: 8px;
     }
 

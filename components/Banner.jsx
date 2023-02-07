@@ -6,10 +6,10 @@ import TouchSvg from "./svgs/TouchSvg";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col xl:flex-row justify-center px-[3vw] w-full h-screen relative border-b border-[#797979]">
+    <div className="flex flex-col xl:flex-row justify-center pl-[10.5vw] pr-[0vw] w-full h-screen relative border-b border-[#797979]">
       <div className="flex w-full relative">
         <div className="flex flex-col justify-center font-macklindisplay">
-          <h1 className="text-[8vw] leading-[8vw]">
+          <h1 className="text-[6.5vw] leading-[6.5vw]">
             Designing future
             <br />
             with beyond
@@ -21,7 +21,7 @@ const Banner = () => {
           <p className="text-[2.9vw] italic w-fit ml-[8vw] xl:leading-[2vw]">
             ambitious brands
           </p>
-          <button className="items-center space-x-[1vw] hidden sm:flex w-fit ml-[24vw] mt-[5vh]">
+          <button className="items-center space-x-[1vw] hidden sm:flex w-fit ml-[24vw] mt-[8vh]">
             <p className="text-[1.5vw] font-gthaptik font-light">
               VIEW OUR SERVICES
             </p>
