@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import FixedRightBar from "@/components/FixedRightBar";
 import CircleArrowDownSvg from "@/components/svgs/CircleArrowDownSvg";
-import Slider from "@/components/slider/Slider";
+import ProjectSlider from "@/components/ProjectSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +19,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex justify-center overflow-auto scrollbar">
+      <div className="flex justify-center overflow-auto scrollbar scroll-smooth">
         <div className="w-full h-screen">
           <Header />
           <Banner />
           <FixedRightBar />
-          <div className="pl-[10.5vw] pr-[5vw] grid grid-cols-2 my-[18vh]">
+          <div className="px-[3vw] grid grid-cols-2 my-[18vh]">
             <p className="text-[1.5vw] font-gthaptik mt-[2vh]">
               We are equal parts digital agency and venture firm.
             </p>
-            <div className="text-[3.5vw] leading-[4vw] font-macklindisplay">
+            <div className="text-[3.2vw] w-[90%] leading-[4vw] font-macklindisplay">
               We elevate game-changing brands for growth by translating their
               future potential into a{" "}
               <span className="italic underline text-[#454544]">
@@ -43,20 +43,20 @@ export default function Home() {
             loop={true}
             autoPlay={true}
             muted={true}
-            className="px-[10.5vw]"
+            className="px-[3vw]"
           ></video>
-          <div className="grid grid-cols-5 text-[3.5vw] leading-[4vw] mx-[3vw] pb-[8vw]">
-            <p className="font-macklindisplay col-span-3">
+          <div className="grid grid-cols-12 text-[3.2vw] leading-[3.7vw] mx-[3vw] py-[8vw]">
+            <p className="font-macklindisplay col-span-6">
               We guide game-changing tech & <br /> web3 brands,{" "}
               <span className="underline italic text-[#454544]">
                 across platforms & places.
               </span>
             </p>
-            <div className="col-span-2 flex justify-end">
-              <CircleArrowDownSvg />
+            <div className="col-start-11 col-end-13 flex justify-end self-end mr-[2vw]">
+              <CircleArrowDownSvg className="w-[8vw] h-fit" />
             </div>
           </div>
-          <Slider />
+          <ProjectSlider />
         </div>
       </div>
     </>

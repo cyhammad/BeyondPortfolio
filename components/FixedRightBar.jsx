@@ -7,7 +7,7 @@ import TouchSvg from "./svgs/TouchSvg";
 
 const FixedRightBar = () => {
   return (
-    <div className="flex flex-col-reverse py-10 justify-center items-center fixed bottom-2 h-fit left-[3.5vw] w-50 z-50">
+    <div className="flex flex-col-reverse py-10 justify-center items-center fixed bottom-2 h-fit right-[3vw] w-50 z-50">
       <BasketBallSvg className="mt-[3.2vw] w-[1.2vw] h-fit" />
       <MailSvg className="mt-[3.2vw] w-[1.2vw] h-fit" />
       <InstagramSvg className="mt-[3.2vw] w-[1.2vw] h-fit" />
