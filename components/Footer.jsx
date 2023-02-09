@@ -28,26 +28,26 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-10 gap-[3vw] mt-[5vw]">
         <div className="flex flex-col space-y-[1.5vw] col-span-3">
-          <div className="text-[#A7A7A7] font-macklindisplay text-[1.5vw]">
+          <div className="text-[#A7A7A7] font-macklindisplay text-[1vw]">
             Collaboration
           </div>
-          <div className="font-gthaptik underline text-[#eaeaea] text-[1.5vw] cursor-pointer">
+          <div className="font-gthaptik underline text-[#eaeaea] text-[1vw] cursor-pointer">
             info@beyond.com
           </div>
         </div>
         <div className="flex flex-col space-y-[1.5vw] col-span-3">
-          <div className="text-[#A7A7A7] font-macklindisplay text-[1.5vw]">
+          <div className="text-[#A7A7A7] font-macklindisplay text-[1vw]">
             Contact
           </div>
-          <div className="font-gthaptik text-[#eaeaea] text-[1.5vw] leading-[2.8vw]">
+          <div className="font-gthaptik text-[#eaeaea] text-[1vw] leading-[1.9vw]">
             434 PRIMOS AVE <br /> PHILADELPHIA, <br /> PA 19032
           </div>
         </div>
         <div className="flex flex-col space-y-[1.5vw] col-span-3">
-          <div className="text-[#A7A7A7] font-macklindisplay text-[1.5vw]">
+          <div className="text-[#A7A7A7] font-macklindisplay text-[1vw]">
             Works
           </div>
-          <div className="font-gthaptik text-[#eaeaea] text-[1.5vw] leading-[2.8vw] cursor-pointer flex flex-col items-start">
+          <div className="font-gthaptik text-[#eaeaea] text-[1vw] leading-[1.9vw] cursor-pointer flex flex-col items-start">
             <button>Strategy</button>
             <button>Branding</button>
             <button>UI / UX</button>
@@ -56,10 +56,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-[1.5vw]">
-          <div className="text-[#A7A7A7] font-macklindisplay text-[1.5vw]">
+          <div className="text-[#A7A7A7] font-macklindisplay text-[1vw]">
             Top
           </div>
-          <div className="font-gthaptik text-[#eaeaea] text-[1.5vw] leading-[2.8vw]">
+          <div className="font-gthaptik text-[#eaeaea] text-[1vw] leading-[1.9vw]">
             Move
           </div>
         </div>
