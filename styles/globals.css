@@ -35,4 +35,15 @@
     .scrollbar::-webkit-scrollbar-thumb:hover {
         background: #c0a0b9;
     }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
 }

@@ -12,10 +12,11 @@ const ProjectSlider = () => {
   const images = ["/taskproj.png", "/taskproj.png", "/taskproj.png"];
   const swiperRef = useRef(null);
   return (
-    <div className="flex swiper-container relative h-[85vh]">
+    <div className="flex swiper-container relative h-fit max-h-[85vh]">
       <Swiper
         ref={swiperRef}
-        spaceBetween={120}
+        spaceBetween={110}
+        speed={1000}
         slidesPerView={1.3}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
@@ -33,10 +34,11 @@ const ProjectSlider = () => {
         ))}
       </Swiper>
       <button
-        className="absolute left-[7.5vw] h-full z-50"
+        className="absolute left-[7.5vw] h-full w-fit z-50"
         onClick={() => swiperRef.current.swiper.slidePrev()}
       >
         <svg
+          className="w-[2.5vw] h-fit"
           width="34"
           height="20"
           viewBox="0 0 34 20"
@@ -50,10 +52,11 @@ const ProjectSlider = () => {
         </svg>
       </button>
       <button
-        className="absolute right-[7.5vw] h-full z-50"
+        className="absolute right-[7.5vw] h-full z-50 w-fit"
         onClick={() => swiperRef.current.swiper.slideNext()}
       >
         <svg
+          className="w-[2.5vw] h-fit"
           width="34"
           height="20"
           viewBox="0 0 34 20"

@@ -9,6 +9,8 @@ import CircleArrowDownSvg from "@/components/svgs/CircleArrowDownSvg";
 import ProjectSlider from "@/components/ProjectSlider";
 import ServicesBanner from "@/components/banners/ServicesBanner";
 import ClientsBanner from "@/components/banners/ClientsBanner";
+import ValuesBanner from "@/components/banners/Values/ValuesBanner";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +24,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center overflow-auto scrollbar scroll-smooth">
-        <div className="w-full h-screen">
+        <div className="w-full">
           <Header />
           <Banner />
           <FixedRightBar />
-          <div className="px-[3vw] grid grid-cols-2 my-[18vh]">
+          <div className="px-[3vw] grid grid-cols-2 my-[10vw]">
             <p className="text-[1.5vw] font-gthaptik mt-[2vh]">
               We are equal parts digital agency and venture firm.
             </p>
@@ -61,6 +63,8 @@ export default function Home() {
           <ProjectSlider />
           <ServicesBanner />
           <ClientsBanner />
+          <ValuesBanner />
+          <Footer />
         </div>
       </div>
     </>

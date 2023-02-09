@@ -1,10 +1,11 @@
 import React from "react";
 import { Inter } from "@next/font/google";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["vietnamese"] });
 const ClientsBanner = () => {
   return (
-    <div className="grid grid-cols-12 h-screen bg-[#121212] pt-[10vw]">
+    <div className="grid grid-cols-12 min-h-[60vh] bg-[#121212] pt-[10vw]">
       <div className="col-span-4 flex flex-col">
         <p
           className={inter.className}
@@ -18,7 +19,7 @@ const ClientsBanner = () => {
           023
         </p>
         <svg
-          className="self-end m-[2vw]"
+          className="self-end mx-[2vw] my-[3vw]"
           width="68"
           height="56"
           viewBox="0 0 68 56"
@@ -40,6 +41,18 @@ const ClientsBanner = () => {
           commonly used to demonstrate the visual form of a document or a
           typeface without relying on meaningful content.
         </p>
+      </div>
+      <div className="col-start-2 col-end-12 border-b border-[#4B4B4B] mb-4">
+          <div className="font-macklindisplay text-[3vw] mt-[4vw] text-white">
+            Our Partners
+          </div>
+      </div>
+      <div className="col-start-2 col-end-13 grid grid-cols-5 pb-10">
+          <Image className="h-fit" src="/microsoft.png" width={300} height={300} />
+          <Image className="h-fit" src="/airbnb.png" width={300} height={300} />
+          <Image className="h-fit" src="/ericsson.png" width={300} height={300} />
+          <Image className="h-fit" src="/disney.png" width={300} height={300} />
+          <Image className="h-fit" src="/acorns.png" width={300} height={300} />
       </div>
     </div>
   );
