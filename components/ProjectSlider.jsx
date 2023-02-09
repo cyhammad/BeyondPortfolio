@@ -11,10 +11,8 @@ import { useRef } from "react";
 const ProjectSlider = () => {
   const images = ["/taskproj.png", "/taskproj.png", "/taskproj.png"];
   const swiperRef = useRef(null);
-  const nextBtnRef = useRef(null);
-  const prevBtnRef = useRef(null);
   return (
-    <div className="flex swiper-container relative h-screen">
+    <div className="flex swiper-container relative h-[85vh]">
       <Swiper
         ref={swiperRef}
         spaceBetween={120}
@@ -22,10 +20,6 @@ const ProjectSlider = () => {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         centeredSlides={true}
-        navigation={{
-            prevEl: prevBtnRef.current,
-            nextEl: nextBtnRef.current,
-        }}
       >
         {images.map((image) => (
           <SwiperSlide>
@@ -39,8 +33,7 @@ const ProjectSlider = () => {
         ))}
       </Swiper>
       <button
-        ref={prevBtnRef}
-        className="absolute left-[7.5vw] h-full"
+        className="absolute left-[7.5vw] h-full z-50"
         onClick={() => swiperRef.current.swiper.slidePrev()}
       >
         <svg
@@ -57,8 +50,7 @@ const ProjectSlider = () => {
         </svg>
       </button>
       <button
-        ref={nextBtnRef}
-        className="absolute right-[7.5vw] h-full"
+        className="absolute right-[7.5vw] h-full z-50"
         onClick={() => swiperRef.current.swiper.slideNext()}
       >
         <svg

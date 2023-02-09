@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import PencilCircleSvg from "./svgs/PencilCircleSvg";
-import RightArrowLongSvg from "./svgs/RightArrowLongSvg";
-import TouchSvg from "./svgs/TouchSvg";
+import PencilCircleSvg from "../svgs/PencilCircleSvg";
+import RightArrowLongSvg from "../svgs/RightArrowLongSvg";
+import TouchSvg from "../svgs/TouchSvg";
 
 const Banner = () => {
   return (

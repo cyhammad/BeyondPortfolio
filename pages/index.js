@@ -3,10 +3,12 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
-import Banner from "@/components/Banner";
+import Banner from "@/components/banners/Banner";
 import FixedRightBar from "@/components/FixedRightBar";
 import CircleArrowDownSvg from "@/components/svgs/CircleArrowDownSvg";
 import ProjectSlider from "@/components/ProjectSlider";
+import ServicesBanner from "@/components/banners/ServicesBanner";
+import ClientsBanner from "@/components/banners/ClientsBanner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,6 +59,8 @@ export default function Home() {
             </div>
           </div>
           <ProjectSlider />
+          <ServicesBanner />
+          <ClientsBanner />
         </div>
       </div>
     </>
